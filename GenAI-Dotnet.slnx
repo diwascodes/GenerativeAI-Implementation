@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/section5_llm/">
+    <Project Path="FunctionCall/FunctionCall.csproj" Id="662c168c-f37a-4d50-9894-1a5b686b29d9" />
+    <Project Path="TextCompletion/TextCompletion.csproj" Id="41f0f8d7-c57b-403e-a10a-cc38bd86f384" />
+    <Project Path="TextCompletion_Ollama/TextCompletion_Ollama.csproj" Id="d7a61e7f-8197-41cd-bac0-499df592e582" />
+  </Folder>
+</Solution>

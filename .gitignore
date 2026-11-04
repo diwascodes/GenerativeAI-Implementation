@@ -1,0 +1,109 @@
+
+# ==========================================
+# .NET / C# / ASP.NET Core - .gitignore
+# ==========================================
+
+# Build outputs
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/publish/
+**/artifacts/
+TestResults/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.csproj.user
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# ASP.NET Core secrets and environment
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/secrets.json
+
+# Local development certificates
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Logs
+*.log
+logs/
+Logs/
+
+# Local databases
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.db
+
+# Test / coverage results
+coverage/
+coverage-report/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+*.trx
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.swp
+*.orig
+*~
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies (Angular / React)
+node_modules/
+dist/
+.angular/
+.next/
+.npm/
+
+# Docker local overrides
+docker-compose.override.yml
+
+# User-specific publish settings
+*.pubxml.user
+*.publishproj
+PublishProfiles/
+
+# Generated files
+Generated/
+*.g.cs
+*.generated.cs
