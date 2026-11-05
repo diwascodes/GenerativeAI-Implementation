@@ -1,7 +1,11 @@
 <Solution>
-  <Folder Name="/section5_llm/">
+  <Folder Name="/llm_basics/">
     <Project Path="FunctionCall/FunctionCall.csproj" Id="662c168c-f37a-4d50-9894-1a5b686b29d9" />
     <Project Path="TextCompletion/TextCompletion.csproj" Id="41f0f8d7-c57b-403e-a10a-cc38bd86f384" />
     <Project Path="TextCompletion_Ollama/TextCompletion_Ollama.csproj" Id="d7a61e7f-8197-41cd-bac0-499df592e582" />
+  </Folder>
+  <Folder Name="/vector/">
+    <Project Path="VectorSearch/Embedding.csproj" Id="ee5a3999-00bc-40a2-b256-af0031aa6557" />
+    <Project Path="Vector_Search/Vector_Search.csproj" Id="63c06261-e563-4aa6-bf8a-e88de6ca7f4b" />
   </Folder>
 </Solution>
